@@ -22,7 +22,7 @@
     "doctor": "node bin/blog-publish.mjs doctor",
     "preflight": "node bin/blog-publish.mjs preflight",
     "adapt": "node bin/blog-publish.mjs adapt",
-    "publish": "node bin/blog-publish.mjs publish",
+    "send": "node bin/blog-publish.mjs publish",
     "dry-run": "node bin/blog-publish.mjs publish --dry-run"
   },
   "keywords": [
