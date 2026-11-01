@@ -1,10 +1,11 @@
 {
   "name": "tech-blog-publisher",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "给 agent 用的掘金/知乎发布技能：一份 SKILL.md + 一个 CLI，自动把 Markdown 发出去并回读校验。",
   "type": "module",
   "bin": {
-    "blog-publish": "bin/blog-publish.mjs"
+    "blog-publish": "bin/blog-publish.mjs",
+    "tech-blog-publisher": "bin/blog-publish.mjs"
   },
   "files": [
     "bin",
