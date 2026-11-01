@@ -1,0 +1,54 @@
+{
+  "name": "tech-blog-publisher",
+  "version": "0.1.0",
+  "description": "给 agent 用的掘金/知乎发布技能：一份 SKILL.md + 一个 CLI，自动把 Markdown 发出去并回读校验。",
+  "type": "module",
+  "bin": {
+    "blog-publish": "bin/blog-publish.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "login": "node bin/blog-publish.mjs login",
+    "doctor": "node bin/blog-publish.mjs doctor",
+    "preflight": "node bin/blog-publish.mjs preflight",
+    "adapt": "node bin/blog-publish.mjs adapt",
+    "publish": "node bin/blog-publish.mjs publish",
+    "dry-run": "node bin/blog-publish.mjs publish --dry-run"
+  },
+  "keywords": [
+    "juejin",
+    "zhihu",
+    "markdown",
+    "publish",
+    "blog",
+    "cli",
+    "playwright",
+    "skill"
+  ],
+  "license": "MIT",
+  "author": "xiu1zi3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiu1zi3/tech-blog-publisher.git"
+  },
+  "homepage": "https://github.com/xiu1zi3/tech-blog-publisher#readme",
+  "bugs": {
+    "url": "https://github.com/xiu1zi3/tech-blog-publisher/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "playwright-core": "^1.64.1"
+  }
+}
